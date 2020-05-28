@@ -12,3 +12,17 @@ D:\fullstack\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.As
 D:\fullstack\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.RazorTargetAssemblyInfo.cache
 D:\fullstack\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.dll
 D:\fullstack\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.pdb
+D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.WebAPI.deps.json
+D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.WebAPI.runtimeconfig.json
+D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.WebAPI.runtimeconfig.dev.json
+D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.WebAPI.dll
+D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.WebAPI.pdb
+D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.csprojAssemblyReference.cache
+D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.csproj.CoreCompileInputs.cache
+D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.RazorAssemblyInfo.cache
+D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.RazorAssemblyInfo.cs
+D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.AssemblyInfoInputs.cache
+D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.AssemblyInfo.cs
+D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.RazorTargetAssemblyInfo.cache
+D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.dll
+D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.pdb

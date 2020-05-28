@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\fullstack\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj": {}
+    "D:\\treinamentos\\udemy-fullstack\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj": {}
   },
   "projects": {
-    "D:\\fullstack\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj": {
+    "D:\\treinamentos\\udemy-fullstack\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\fullstack\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj",
+        "projectUniqueName": "D:\\treinamentos\\udemy-fullstack\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj",
         "projectName": "ProAgil.WebAPI",
-        "projectPath": "D:\\fullstack\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj",
+        "projectPath": "D:\\treinamentos\\udemy-fullstack\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj",
         "packagesPath": "C:\\Users\\otare\\.nuget\\packages\\",
-        "outputPath": "D:\\fullstack\\dotnetcore\\ProAgil.WebAPI\\obj\\",
+        "outputPath": "D:\\treinamentos\\udemy-fullstack\\dotnetcore\\ProAgil.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
