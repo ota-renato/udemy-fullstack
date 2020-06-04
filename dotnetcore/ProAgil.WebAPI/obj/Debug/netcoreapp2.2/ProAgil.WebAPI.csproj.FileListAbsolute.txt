@@ -26,3 +26,8 @@ D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.
 D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.RazorTargetAssemblyInfo.cache
 D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.dll
 D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.pdb
+D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.Domain.dll
+D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.Repository.dll
+D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.Domain.pdb
+D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.Repository.pdb
+D:\treinamentos\udemy-fullstack\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.csproj.CopyComplete
