@@ -6,7 +6,7 @@ import { FormGroup, Validators, FormBuilder } from '@angular/forms';
 import { defineLocale } from 'ngx-bootstrap/chronos';
 import { ptBrLocale } from 'ngx-bootstrap/locale';
 import { BsLocaleService } from 'ngx-bootstrap/datepicker';
-import { template } from '@angular/core/src/render3';
+import { ToastrService } from 'ngx-toastr';
 defineLocale('pt-br', ptBrLocale);
 
 @Component({
@@ -16,7 +16,7 @@ defineLocale('pt-br', ptBrLocale);
 })
 
 export class EventosComponent implements OnInit {
-
+  titulo = 'Eventos';
   eventosFiltrados: Evento[];
   eventos: Evento[];
   evento: Evento;
@@ -41,7 +41,8 @@ export class EventosComponent implements OnInit {
   constructor(private eventoService: EventoService,
               private modalService: BsModalService,
               private fb: FormBuilder,
-              private localeService: BsLocaleService ) {
+              private localeService: BsLocaleService,
+              private toastr: ToastrService ) {
                 this.localeService.use('pt-br');
               }
 
@@ -99,7 +100,9 @@ export class EventosComponent implements OnInit {
       () => {
           template.hide();
           this.getEventos();
+          this.toastr.success('Excluído com sucesso');
         }, error => {
+          this.toastr.error('Erro ao tentar excluir o ítem');
           console.log(error);
         }
     );
@@ -114,7 +117,9 @@ export class EventosComponent implements OnInit {
             console.log(novoEvento);
             template.hide();
             this.getEventos();
+            this.toastr.success('Inserido com sucesso');
           }, error => {
+            this.toastr.error('Erro ao tentar inserir o ítem');
             console.log(error);
           }
         );
@@ -124,7 +129,9 @@ export class EventosComponent implements OnInit {
           () => {
             template.hide();
             this.getEventos();
+            this.toastr.success('Alterado com sucesso');
           }, error => {
+            this.toastr.error('Erro ao tentar alterar o ítem');
             console.log(error);
           }
         );
@@ -138,8 +145,7 @@ export class EventosComponent implements OnInit {
       this.eventosFiltrados = this.eventos;
     },
     error => {
-      console.log(error);
-    }
-    );
+      this.toastr.error(`Erro ao tentar carregar: ${error}`);
+    });
   }
 }
