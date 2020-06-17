@@ -33,7 +33,7 @@
   <tbody *ngIf="eventos">
     <tr *ngFor="let evt of eventosFiltrados">
       <td>
-        <img *ngIf="mostrarImagem" src="http://localhost:5000/img/{{ evt.imagemURL }}" [style.width.px]="imagemLargura" [style.margin.px]="imagemMargem">
+        <img *ngIf="mostrarImagem" src="http://localhost:5000/Resources/images/{{ evt.imagemURL }}?_ts={{ dataAtual }}" [style.width.px]="imagemLargura" [style.margin.px]="imagemMargem">
       </td>
       <td>{{ evt.id }}</td>
       <td>{{ evt.tema }}</td>
@@ -129,9 +129,17 @@
             </div>
             <div class="form-group col-md-9">
               <label>Imagem</label>
-              <input type="text"
-              [ngClass]="{'is-invalid': registerForm.get('imagemURL').errors && registerForm.get('imagemURL').touched}"
-              class="form-control" formControlName="imagemURL">
+              <table>
+                <tr>
+                  <td>
+                    <button class="btn btn-success" (click)="file.click()">Enviar Imagem</button>
+                    <input type="file" #file
+                    [ngClass]="{'is-invalid': registerForm.get('imagemURL').errors && registerForm.get('imagemURL').touched}" (change)="onFileChange($event)"
+                    class="form-control d-none" formControlName="imagemURL">
+                  </td>
+                </tr>
+              </table>
+              
               <div *ngIf="registerForm.get('imagemURL').hasError('required') && registerForm.get('imagemURL').touched" class="invalid-feedback">
                 Imagem é obrigatoria
               </div>
