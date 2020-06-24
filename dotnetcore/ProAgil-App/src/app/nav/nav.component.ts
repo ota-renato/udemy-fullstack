@@ -17,6 +17,11 @@ export class NavComponent implements OnInit {
   ngOnInit() {
   }
 
+  showMenu() {
+    console.log('url', this.router.url);
+    return this.router.url !== '/user/login';
+  }
+
   loggedIn() {
     return this.authService.loggedIn();
   }
