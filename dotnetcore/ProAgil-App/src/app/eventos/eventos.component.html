@@ -27,7 +27,7 @@
       <th>Data</th>
       <th>Qtd. pessoas</th>
       <th>Lote</th>
-      <th>Opções</th>
+      <th colspan="2">Opções</th>
     </tr>
   </thead>
   <tbody *ngIf="eventos">
@@ -53,6 +53,11 @@
             <i class="fa fa-eraser"></i>
           </button>
         </div>
+      </td>
+      <td>
+        <a [routerLink]="['/evento', evt.id, 'edit']" tooltip="Edição detalhada" class="btn btn-sm btn-warning">
+          <i class="fa fa-edit"></i>
+        </a>
       </td>
     </tr>
   </tbody>
@@ -106,7 +111,7 @@
             </div>
             <div class="form-group col-md-4">
               <label>Data e Hora</label>
-              <input type="text" bsDatepicker value="{{ dataEvento | DateTimeFormat }}" [(ngModel)]="dataEvento" [bsConfig]="{ dateInputFormat : 'DD/MM/YYYY hh:mm' }"
+              <input type="text" bsDatepicker value="{{ registerForm.get('dataEvento').value | DateTimeFormat }}" [(ngModel)]="registerForm.get('dataEvento').value" [bsConfig]="{ dateInputFormat : 'DD/MM/YYYY hh:mm' }"
               [ngClass]="{'is-invalid': registerForm.get('dataEvento').errors && registerForm.get('dataEvento').touched}"
               class="form-control" formControlName="dataEvento">
               <div *ngIf="registerForm.get('dataEvento').hasError('required') && registerForm.get('dataEvento').touched" class="invalid-feedback">
